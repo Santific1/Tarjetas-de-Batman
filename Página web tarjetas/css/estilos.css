@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+#logo {
+    width: 100px;
+    position: relative;
+    left: 5%;
+    top: 110px;
+}
+
+#titulo{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+    position: relative;
+    left: 15%;
+    bottom: 10px;
+}
+
+#menu{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: 24;
+    position: relative;
+    left: 80%;
+    bottom: 100px;
+    list-style: none;
+}
+
+.btn {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: normal;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(53, 53, 121);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+#barra{
+    position: relative;
+    left: 30%;
+    bottom: 250px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#buscar{
+    position: relative;
+    left:12%;
+    bottom: 250px;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(177, 156, 40);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+#ingresar{
+    position: relative;
+    left:52%;
+    bottom: 250px;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(177, 156, 40);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+#registrar{
+    position: relative;
+    left:53%;
+    bottom: 250px;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(177, 156, 40);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+#imagen1{
+    width: 300px;
+    position: absolute;
+    top: 150px;
+    left: 2.5%;
+    border: 3px, azure, solid;
+    padding: 10px;
+}
+
+#tarjetas1
+{
+    background-image: url(../imagenes/batman8.jpg);
+    background-size: cover;
+    width: 1000px;
+    height: 600px;
+    border-radius: 70px;
+    border: 5px chocolate, solid;
+    position: relative;
+} 
+
+#parrafo1{
+    width: 300px;
+    position: absolute;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: 24px;
+    top: 210px;
+    left: 67%;
+    text-align: justify;
+}
+
+#enlace1{
+    position: absolute;
+    top: 550px;
+    left: 40%;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#formulario{
+    width: 30%;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: normal;
+}
+
+#nombre{
+    margin-bottom: 10px;
+}
+
+#telefono{
+    margin-bottom: 10px;
+}
+
+#correo{
+    margin-bottom: 10px;
+}
+
+#masculino{
+    margin-bottom: 10px;
+}
+
+#femenino{
+    margin-bottom: 10px;
+}
+
+#dia{
+    margin-top: 10px;
+}
+
+#enviar{
+    margin-top: 10px;
+}
+
+#favoritos{
+    margin-top: 10px;
+}

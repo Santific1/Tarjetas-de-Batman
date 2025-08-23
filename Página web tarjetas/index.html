@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batman</title>
     <link rel="stylesheet" href="css/estilos.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" 
+rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="imagenes/logo.png" alt="Batman">
-        <h1>
+        <img 
+        id="logo"
+        src="imagenes/logo.png" alt="Batman">
+        <h1 id="titulo">
             Batman el superhéroe
         </h1>
         <nav>
-            <ul>
+            <ul id="menu"
                 <li>
                     Sección 1 - The Batman
                 </li>
@@ -23,30 +29,34 @@
                 <li>
                     Sección 3 - Batman el caballero de la noche
                 </li>
-                <button>
+            </ul>
+                <button id="ingresar" class="btn">
                     Ingresar
                 </button>
-                <button>
+                <button id="registrar" class="btn">
                     Registrar
                 </button>
-                <input type="text" placeholder="Buscar"/>
-                <button>    
+                <input id="barra" type="text" placeholder="Buscar"/>
+                <button id="buscar" class="btn">    
                     Buscar
-                </button>
-            </ul>
+                </button>            
         </nav>
     </header>
     <main>
-        <section>
-            <img src="imagenes/batman4.jpg" alt="Personaje">
-            <p>
+        <section id="tarjetas1">
+            <img 
+            id="imagen1"
+            src="imagenes/batman4.jpg" alt="Personaje">
+            <p id="parrafo1">
                 Bruce Wayne es un filántropo, multimillonario y el presidente corporativo de Empresas Wayne. <br>
                 En secreto, él encarna a Batman, el héroe enmascarado que lucha contra el mundo del hampa y del crimen organizado en Ciudad Gotham <br>
                 La historia de Batman narra la vida tras presenciar el asesinato de sus padres, dedica su vida a combatir el crimen en Ciudad Gótica, <br>
                 utilizando su intelecto, habilidades de combate y tecnología avanzada, pero sin poseer superpoderes. <br>
                 Jurando venganza contra el crimen, Bruce se somete a un riguroso entrenamiento físico y mental, combinándolo con su riqueza e inteligencia. <br>
             </p>
-            <a href="https://bandai.com.mx/blog/historia-de-batman/">
+            <a 
+            id="enlace1"
+            href="https://bandai.com.mx/blog/historia-de-batman/">
                 Conoce más
             </a>
         </section>
@@ -81,29 +91,35 @@
         <a href="">
             <img src="" alt="">
         </a>
-        <form action="" method="post">
+        <form id="formulario" action="" method="post">
+            <fieldset>
+            <legend> Datos de contacto </legend>
             <label for="nombre">
                 Introduce tu nombre
-            </label>
-            <input type="text" id="nombre" placeholder="Juan Perez García" name="nombre"/>
+            </label> <br/>
+            <input type="text" id="nombre" placeholder="Juan Perez García" name="nombre"/> <br/>
             <label for="telefono">
                 Introduce tu número telefónico
-            </label>
-            <input type="tel" id="teléfono" placeholder="55 5555 5555" name="teléfono"/>
+            </label> <br/>
+            <input type="tel" id="teléfono" placeholder="55 5555 5555" name="teléfono"/> <br/>
+            <label for="telefono">
+            </label> <br/>
             </Input>
             <label for="correo">
                 Introduce tu correo electrónico
-            <input type="email" id="correo" placeholder="email@ejemplo.com" name="correo"/>
-            </label>
-
+            </label> <br/>   
+            <input type="email" id="correo" placeholder="email@ejemplo.com" name="correo"/> <br/>
+            </Input>
             <label for="genero">
-                Introduce tu género
-            </label>
-            <input type="radio" id="femenino" value="femenino" name="genero"/>
-            <label for="femenino"> femenino </label>
-            <input type="radio" id="masculino" value="masculino" name="genero"/>
-            <label for="masculino"> masculino </label>
-            <h3>Selecciona tus colores favoritos</h3>
+                Selecciona tu género
+            </label> <br/>
+            <input type="radio" id="femenino" value="femenino" name="genero"/> 
+            <label for="femenino"> femenino </label> <br/>
+            <input type="radio" id="masculino" value="masculino" name="genero"/> 
+            <label for="masculino"> masculino </label> <br/>
+            <input type="radio" id="nobinario" value="nobinario" name="genero"/> 
+            <label for="masculino"> prefiero no decir </label> <br/>
+            <h3 id="favoritos">Selecciona tus colores favoritos</h3>
             <label for="rojo">
                 rojo
             </label>
@@ -116,7 +132,8 @@
                 verde
             </label>
             <input type="checkbox" id="verde" name="color">
-            <h3>Selecciona el día</h3>
+            <h3 id="dia">Selecciona el día 
+            </h3>
             <select name="dia" id="day">
             <option value="lunes"> Lunes </option> 
             <option value="martes"> Martes </option> 
@@ -125,7 +142,8 @@
             <option value="viernes"> viernes </option> 
             </select>
             <!-- <input type="submit"> -->
-            <button>Enviar</button>
+            <button id="enviar">Enviar</button>
+            </fieldset>
             </form>
     </footer>
 
