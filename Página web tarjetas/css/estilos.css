@@ -84,10 +84,19 @@
 }
 
 #imagen1{
-    width: 300px;
     position: absolute;
     top: 150px;
     left: 2.5%;
+}
+
+#imagen2{
+    position: absolute;
+    bottom: 150px;
+    left: 2.5%;
+}
+
+.foto{
+    width: 300px;
     border: 3px, azure, solid;
     padding: 10px;
 }
@@ -95,23 +104,46 @@
 #tarjetas1
 {
     background-image: url(../imagenes/batman8.jpg);
-    background-size: cover;
+    position: relative;
+    left: 5%;
+    top: 5%;
+} 
+
+.tarjetas{
+ background-size: cover;
     width: 1000px;
     height: 600px;
     border-radius: 70px;
     border: 5px chocolate, solid;
+}
+
+#tarjetas2
+{
+    background-image: url(../imagenes/batman7.png);
     position: relative;
+    left: 54%;
+    bottom: 35%;
 } 
 
-#parrafo1{
-    width: 300px;
+#parrafo1{  
     position: absolute;
-    color: white;
+    top: 210px;
+    left: 67%;
+}
+
+#parrafo2{  
+    position: absolute;
+    top: 210px;
+    left: 67%;
+}
+
+
+.texto{
+width: 300px;
+color: rgb(255, 255, 255);
     font-family: "Montserrat";
     font-weight: 700;
     font-style: 24px;
-    top: 210px;
-    left: 67%;
     text-align: justify;
 }
 
@@ -130,6 +162,8 @@
     font-family: "Montserrat";
     font-weight: 700;
     font-style: normal;
+    position: relative;
+    left: 70%;
 }
 
 #nombre{
@@ -162,4 +196,26 @@
 
 #favoritos{
     margin-top: 10px;
+}
+
+.videos{
+    width: 560px;
+    height: 315px;
+    position: relative;
+    left:555px;
+    bottom: 350px;
+    margin: 20px;
+}
+
+main{
+    background-color: black;
+    height: 1500px;
+}
+
+footer{
+    background-color: rgb(218, 182, 5);
+}
+
+body{
+    height: 2000px;
 }
